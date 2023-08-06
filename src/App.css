@@ -1,0 +1,83 @@
+.main_div{
+  text-align: center;
+}
+h1{
+  background-color: rgb(170, 14, 170);
+  color: azure;
+  font-size: 40px;
+  font-style: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+}
+input{
+  border-style: none;
+  font-size: 25px;
+  padding-left: 50px;
+  width: 200px;
+}
+input:focus{
+  outline: none;
+}
+hr{
+  width: 200px;
+ justify-content: center;
+  height: 2px;
+  color:rgb(138, 9, 138) ;
+  background-color:rgb(170, 14, 170) ;
+}
+#yes{
+  background-color: rgb(170, 14, 170);
+  color: azure;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  border-style: none;
+}
+#yes:hover{
+  background-color: #46bc3e;
+  cursor: pointer;
+}
+li{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(170, 14, 170);
+  list-style-type: none;
+}
+
+
+  .second_div{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+   justify-content:left;
+   align-items: center;
+   margin-left: 600px;
+  }
+  @media (max-width: 1300px) {
+    .second_div{
+      flex-direction: row;
+      margin-left: 00px;
+    }
+    
+  }
+ #btn{
+    width: 40px;
+    margin-right: 20px;
+    background-color: rgb(170, 14, 170);
+    color: azure;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 70%;
+    border-style: none;
+  }
+  .second_div li{
+    display: flex;
+    justify-content: center;
+  }
+  #btn:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+
+
